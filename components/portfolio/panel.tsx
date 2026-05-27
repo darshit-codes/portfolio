@@ -10,10 +10,10 @@ export function Panel({ children, className, hover = false }: PanelProps) {
   return (
     <div
       className={cn(
-        "relative overflow-hidden rounded-2xl border border-white/[0.08] bg-white/[0.03] shadow-[0_4px_16px_-4px_rgba(0,0,0,0.5)] backdrop-blur-md",
-        "ring-1 ring-inset ring-white/[0.05]",
+        "relative overflow-hidden rounded-[2rem] border border-white/[0.04] bg-[#050505] shadow-sm",
+        "ring-1 ring-inset ring-white/[0.01]",
         hover &&
-          "transition-all duration-500 hover:border-[#8B5CF6]/30 hover:bg-white/[0.05] hover:shadow-[0_6px_20px_-6px_rgba(139,92,246,0.2)]",
+          "transition-all duration-700 hover:border-white/[0.12] hover:bg-[#0a0a0a] hover:shadow-2xl hover:shadow-white/[0.02]",
         className
       )}
     >

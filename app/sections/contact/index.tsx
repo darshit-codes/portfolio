@@ -37,24 +37,13 @@ export default function ContactSection() {
 
                 className="mt-10 flex flex-wrap items-center gap-3 sm:gap-4"
               >
-                <Button
-                  size="lg"
-                  variant="outline"
-                  asChild
-                  className="h-12 rounded-full border-white/15 bg-white/4 px-7 text-[15px] font-medium text-white backdrop-blur-md hover:border-white/25 hover:bg-white/[0.08]"
-                >
-                  <Link href="#contact">
-                    <Mail className="size-4 opacity-80" />
-                    Start a conversation
-                  </Link>
-                </Button>
               </div>
             </div>
 
             <ul className="space-y-3">
               <li>
                 <Link
-                  href={""}
+                  href={"https://github.com/Darshit02"}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group flex items-center justify-between rounded-xl border border-white/[0.08] bg-white/[0.03] px-5 py-4 transition-all hover:border-[#8B5CF6]/30 hover:bg-white/[0.06]"
@@ -75,7 +64,7 @@ export default function ContactSection() {
               </li>
               <li>
                 <Link
-                  href={""}
+                  href={"www.linkedin.com/in/darshit-mistry"}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group flex items-center justify-between rounded-xl border border-white/[0.08] bg-white/[0.03] px-5 py-4 transition-all hover:border-[#8B5CF6]/30 hover:bg-white/[0.06]"

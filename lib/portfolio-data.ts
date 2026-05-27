@@ -47,44 +47,9 @@ export const about = {
   ],
 } as const;
 
-export const projects = [
-  {
-    title: "Vision Analytics Platform",
-    description:
-      "Real-time object detection pipeline with model serving, batch inference jobs, and an operator dashboard for monitoring drift and latency.",
-    tags: ["PyTorch", "FastAPI", "React", "Docker"],
-    year: "2025",
-    href: "#",
-    featured: true,
-  },
-  {
-    title: "RAG Knowledge Assistant",
-    description:
-      "Retrieval-augmented QA system over internal docs with hybrid search, reranking, and evaluation harnesses for answer quality.",
-    tags: ["LangChain", "OpenAI", "PostgreSQL", "Next.js"],
-    year: "2024",
-    href: "#",
-    featured: true,
-  },
-  {
-    title: "MLOps Deployment Kit",
-    description:
-      "Reusable templates for training workflows, experiment tracking, and CI/CD promotion from staging to production inference.",
-    tags: ["MLflow", "GitHub Actions", "Kubernetes"],
-    year: "2024",
-    href: "#",
-    featured: false,
-  },
-  {
-    title: "Predictive Maintenance API",
-    description:
-      "Time-series forecasting service for sensor fleets with alerting rules, REST endpoints, and Grafana dashboards.",
-    tags: ["scikit-learn", "Python", "Grafana"],
-    year: "2023",
-    href: "#",
-    featured: false,
-  },
-] as const;
+import { projects as projectsData } from "./projects";
+
+export const projects = projectsData;
 
 export const techStack = [
   {
@@ -153,7 +118,7 @@ export const teakstack = [
   { icon: "/icons/mlflow.png" as const, tech: "MLflow" },
   { icon: "/icons/pytourch.jpeg" as const, tech: "PyTorch" },
   { icon: "/icons/tensorflow.svg" as const, tech: "TensorFlow" },
-  { icon: "/icons/langchain.svg" as const, tech: "LangChain" }, 
+  { icon: "/icons/langchain.svg" as const, tech: "LangChain" },
   { icon: "/icons/openai.svg" as const, tech: "OpenAI" },
   { icon: "/icons/mlflow.png" as const, tech: "MLflow" },
   { icon: "/icons/docker.svg" as const, tech: "Docker" },
@@ -162,10 +127,10 @@ export const teakstack = [
   { icon: "/icons/linux.svg" as const, tech: "Linux" },
   { icon: "/icons/grafana.svg" as const, tech: "Grafana" },
   { icon: "/icons/git.svg" as const, tech: "Git" },
-    { icon: "/icons/mlflow.png" as const, tech: "MLflow" },
+  { icon: "/icons/mlflow.png" as const, tech: "MLflow" },
   { icon: "/icons/pytourch.jpeg" as const, tech: "PyTorch" },
   { icon: "/icons/tensorflow.svg" as const, tech: "TensorFlow" },
-  { icon: "/icons/langchain.svg" as const, tech: "LangChain" }, 
+  { icon: "/icons/langchain.svg" as const, tech: "LangChain" },
   { icon: "/icons/openai.svg" as const, tech: "OpenAI" },
   { icon: "/icons/mlflow.png" as const, tech: "MLflow" },
   { icon: "/icons/docker.svg" as const, tech: "Docker" },

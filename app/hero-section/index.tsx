@@ -35,7 +35,7 @@ export default function Hero() {
         aria-hidden
       />
       <div
-        className="pointer-events-none absolute inset-0 z-1 opacity-[0.35] [background-image:linear-gradient(rgba(255,255,255,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.03)_1px,transparent_1px)] bg-size-[64px_64px]"
+        className="pointer-events-none absolute inset-0 z-1 opacity-[0.35] bg-[linear-gradient(rgba(255,255,255,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.03)_1px,transparent_1px)] bg-size-[64px_64px]"
         aria-hidden
       />
       <div

@@ -16,14 +16,14 @@ export default function Home() {
       <PageAmbient />
       <SiteHeader />
 
-      <div className="px-10 pb-4 pt-16 py-10">
+      <div className="px-4 sm:px-6 lg:px-10 pb-4 pt-16 py-10">
         <Hero />
       </div>
       <main className="relative mx-auto w-full max-w-7xl px-4 sm:px-6">
         {/* Hero — Silk section, standalone */}
         {/* Content — same visual language as hero */}
         <AboutSection />
-        <CaseStudy/>
+        {/* <CaseStudy/> */}
         <ProjectsSection />
         <TechStackSection />
         <ExperienceSection />

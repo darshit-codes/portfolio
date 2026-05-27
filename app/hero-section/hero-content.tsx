@@ -35,24 +35,24 @@ export function HeroContent() {
       variants={container}
       initial="hidden"
       animate="show"
-      className="relative z-10 flex h-full w-full flex-col justify-center items-center px-8 py-14 font-[family-name:var(--font-geist-sans)] sm:px-12 md:px-16 lg:px-20"
+      className="relative z-10 flex h-full w-full flex-col justify-center items-center px-4 py-10 font-[family-name:var(--font-geist-sans)] sm:px-12 md:px-16 lg:px-20"
     >
-      <motion.div variants={item} className="mb-8 flex items-center gap-3">
+      <motion.div variants={item} className="mb-6 sm:mb-8 flex items-center gap-3">
         <span className="relative flex size-2">
           <span className="absolute inline-flex size-full animate-ping rounded-full bg-emerald-400/70 opacity-75" />
           <span className="relative inline-flex size-2 rounded-full bg-emerald-400" />
         </span>
-        <span className="rounded-full border border-white/10 bg-white/6 px-4 py-1.5 text-[11px] font-medium tracking-[0.2em] text-white/80 uppercase backdrop-blur-xl">
+        <span className="rounded-full border border-white/10 bg-white/6 px-3 py-1 sm:px-4 sm:py-1.5 text-[9px] sm:text-[11px] font-medium tracking-[0.2em] text-white/80 uppercase backdrop-blur-xl text-center">
           AI/ML Engineer & Software Developer  from India
         </span>
       </motion.div>
 
-      <motion.div variants={item} className="space-y-1">
-        <p className="text-xl font-medium tracking-wide text-white/50 sm:text-base">
+      <motion.div variants={item} className="space-y-1 text-center">
+        <p className="text-lg font-medium tracking-wide text-white/50 sm:text-base">
           Hello, I&apos;m
         </p>
         <h1
-          className="text-[clamp(3.25rem,11vw,7rem)] leading-[0.95] font-medium tracking-normal text-white"
+          className="text-[clamp(2.5rem,10vw,7rem)] leading-[0.95] font-medium tracking-normal text-white"
           style={{ fontFamily: "var(--font-caveat), cursive" }}
         >
           Darshit Mistry
@@ -61,7 +61,7 @@ export function HeroContent() {
 
       <motion.p
         variants={item}
-        className="mt-5 max-w-4xl text-base text-center leading-relaxed text-white/80 sm:text-lg"
+        className="mt-5 max-w-2xl text-sm text-center leading-relaxed text-white/70 sm:text-lg sm:max-w-4xl sm:text-white/80"
       >
         Bridging machine learning research and software engineering — from model
         training and evaluation to APIs, interfaces, and products people use
@@ -70,22 +70,20 @@ export function HeroContent() {
 
       <motion.div
         variants={item}
-        className="mt-10 flex flex-wrap items-center gap-3 sm:gap-4"
+        className="mt-8 sm:mt-10 flex flex-wrap items-center justify-center gap-3 sm:gap-4"
       >
         <Button
           size="lg"
           variant="outline"
           asChild
-          className="h-12 rounded-full border-white/15 bg-white/4 px-7 text-[15px] font-medium text-white backdrop-blur-md hover:border-white/25 hover:bg-white/[0.08]"
+          className="h-10 sm:h-12 rounded-full border-white/15 bg-white/4 px-5 sm:px-7 text-sm sm:text-[15px] font-medium text-white backdrop-blur-md hover:border-white/25 hover:bg-white/[0.08]"
         >
           <Link href="#contact">
-            <Mail className="size-4 opacity-80" />
+            <Mail className="size-3.5 sm:size-4 opacity-80" />
             Start a conversation
           </Link>
         </Button>
       </motion.div>
-
-
 
       <motion.div
         variants={item}
@@ -93,10 +91,10 @@ export function HeroContent() {
       >
         {STATS.map((stat) => (
           <div key={stat.label} className="space-y-1 flex justify-center items-center flex-col">
-            <p className="text-lg font-semibold tracking-tight text-white sm:text-xl">
+            <p className="text-base font-semibold tracking-tight text-white sm:text-xl">
               {stat.value}
             </p>
-            <p className="text-xs tracking-wide text-white/45 uppercase">
+            <p className="text-[10px] sm:text-xs tracking-wide text-white/45 uppercase text-center">
               {stat.label}
             </p>
           </div>
@@ -105,15 +103,13 @@ export function HeroContent() {
 
       <motion.div
         variants={item}
-        className="mt-10 flex flex-wrap gap-2"
+        className="mt-8 sm:mt-10 flex flex-wrap justify-center gap-2"
       >
         <span
-
-          className="rounded-full border border-white/8 bg-white/4 px-3.5 py-1.5 text-sm font-medium tracking-wide text-white/60 backdrop-blur-sm"
+          className="rounded-full border border-white/8 bg-white/4 px-3 sm:px-3.5 py-1 sm:py-1.5 text-[11px] sm:text-sm font-medium tracking-wide text-white/60 backdrop-blur-sm text-center"
         >
-          coding is like poetry should be beautiful and sort
+          coding is like poetry should be beautiful and short
         </span>
-
       </motion.div>
     </motion.div>
   );
