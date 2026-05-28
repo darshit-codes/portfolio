@@ -1,0 +1,13 @@
+{"sessionId": "preloader-audio-fail", "event": "audio_init_success", "data": {"path": "/pencil.ogg"}, "timestamp": "2026-05-28T03:14:23.002Z", "ts": 1779938063005}
+{"sessionId": "preloader-audio-fail", "event": "handle_start_called", "data": {"hasInteracted": false, "hasAudio": true}, "timestamp": "2026-05-28T03:14:23.961Z", "ts": 1779938063963}
+{"sessionId": "preloader-audio-fail", "event": "audio_unlock_error", "data": {"error": "The element has no supported sources."}, "timestamp": "2026-05-28T03:14:23.964Z", "ts": 1779938063965}
+{"sessionId": "preloader-audio-fail", "event": "final_play_trigger", "data": {"counter": 100}, "timestamp": "2026-05-28T03:14:24.887Z", "ts": 1779938064888}
+{"sessionId": "preloader-audio-fail", "event": "final_play_error", "data": {"error": "The element has no supported sources."}, "timestamp": "2026-05-28T03:14:24.887Z", "ts": 1779938064888}
+{"sessionId": "preloader-audio-fail", "event": "audio_paused_after_writing", "data": {}, "timestamp": "2026-05-28T03:14:25.888Z", "ts": 1779938065889}
+{"sessionId": "preloader-audio-fail", "event": "audio_init_success", "data": {"path": "/pencil.ogg"}, "timestamp": "2026-05-28T03:14:37.193Z", "ts": 1779938077195}
+{"sessionId": "preloader-audio-fail", "event": "preloader_showing", "data": {}, "timestamp": "2026-05-28T03:14:37.193Z", "ts": 1779938077195}
+{"sessionId": "preloader-audio-fail", "event": "handle_start_called", "data": {"hasInteracted": false, "hasAudio": true}, "timestamp": "2026-05-28T03:14:38.081Z", "ts": 1779938078083}
+{"sessionId": "preloader-audio-fail", "event": "audio_unlock_error", "data": {"error": "The element has no supported sources."}, "timestamp": "2026-05-28T03:14:38.084Z", "ts": 1779938078086}
+{"sessionId": "preloader-audio-fail", "event": "final_play_trigger", "data": {"counter": 100}, "timestamp": "2026-05-28T03:14:39.088Z", "ts": 1779938079090}
+{"sessionId": "preloader-audio-fail", "event": "final_play_error", "data": {"error": "The element has no supported sources."}, "timestamp": "2026-05-28T03:14:39.088Z", "ts": 1779938079093}
+{"sessionId": "preloader-audio-fail", "event": "audio_paused_after_writing", "data": {}, "timestamp": "2026-05-28T03:14:40.089Z", "ts": 1779938080090}

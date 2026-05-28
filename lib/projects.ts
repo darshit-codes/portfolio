@@ -261,11 +261,11 @@ export const projects = [
   },
 
   {
-    title: "FOLD: Autonomous Multi-Agent Orchestration",
+    title: "FOLD",
     slug: "fold",
     description:
       "Given a desired biochemical function, use RL to search the space of protein structures and generate one that satisfies it.",
-    tags: ["Python", "FastAPI", "Next.js", "TypeScript", "PostgreSQL", "pgvector", "Redis", "LLMs", "RAG", "RL", "docker", "kubernetes", "ML"],
+    tags: ["Python", "FastAPI", "Next.js", "TypeScript", "PostgreSQL", "pgvector", "Redis", "LLMs", "RAG", "RL", "docker", "kubernetes", "ML","cronjob"],
     category: "AI/ML",
     year: "2026",
     images: ["/projects/web/fold.png"],
