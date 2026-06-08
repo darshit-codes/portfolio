@@ -54,7 +54,7 @@ export function HeroContent() {
         <h1
           className="text-[clamp(2.5rem,10vw,7rem)] leading-[0.95] font-medium tracking-normal text-white"
           style={{ fontFamily: "var(--font-caveat), cursive" }}
-        >
+        > 
           Darshit Mistry
         </h1>
       </motion.div>
